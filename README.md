@@ -47,4 +47,5 @@ ImageView subclass:
   * padding   (badge padding)
   * textColor  (badge text color)
   * backColor (badge background color)
+  
  > because use view overlay so api need >17
