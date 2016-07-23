@@ -76,13 +76,13 @@ public class BadgeTextHelper extends Drawable {
         textPaint.getTextBounds(str, 0, str.length(), textRect);
         float r = (textRect.height() + badgePadding * 2) / 2;
         canvas.drawRoundRect(rect.left+layout.getLineRight(0) + left_distance-r,
-                textRect.top - badgePadding + rect.top + bottom_distance,
+                textRect.top - badgePadding + rect.top - bottom_distance,
                 rect.left+layout.getLineRight(0) + left_distance+textRect.width()+r,
-                textRect.bottom + badgePadding + rect.top + bottom_distance,
+                textRect.bottom + badgePadding + rect.top - bottom_distance,
                 badgePadding + r, badgePadding + r, backPaint);
         canvas.drawText(str,
                 rect.left+layout.getLineRight(0) + left_distance,
-                rect.top + bottom_distance,
+                rect.top - bottom_distance,
                 textPaint);
     }
 
