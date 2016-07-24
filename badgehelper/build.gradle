@@ -12,7 +12,7 @@ ext {
     siteUrl = 'https://github.com/yhj2009/BadgeHelper'
     gitUrl = 'https://github.com/yhj2009/BadgeHelper.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.1'
 
     developerId = 'yhj'
     developerName = 'yhj'
@@ -51,3 +51,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.0.0'
     testCompile 'junit:junit:4.12'
 }
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'

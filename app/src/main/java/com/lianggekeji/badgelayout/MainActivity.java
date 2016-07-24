@@ -28,10 +28,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
         BadgeImageHelper myDrawable = new BadgeImageHelper.Builder(imageView)
-                .backColor(0xffff0000).leftMargin(-10).bottomMargin(-30).padding(15).create();
+                .backColor(0xffff0000).leftMargin(0).bottomMargin(0).padding(15).create();
         myDrawable.setBadgeText("3");
         BadgeTextHelper textHelper=new BadgeTextHelper.Builder(textView)
-                .padding(15).leftMargin(-10).textColor(0xff000000).bottomMargin(-30).create();
+                .padding(15).leftMargin(0).textColor(0xff000000).bottomMargin(0).create();
         textHelper.setBadgeText("99+");
 
     }
