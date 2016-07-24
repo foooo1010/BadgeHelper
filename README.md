@@ -7,7 +7,7 @@ An email <yiflandre@gmail.com> link
 gradle
 
 ```
-compile 'com.lianggekeji.yhj:badgehelper:1.0.0'
+compile 'com.lianggekeji.yhj:badgehelper:1.0.1'
 	
 ```
 
